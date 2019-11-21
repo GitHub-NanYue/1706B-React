@@ -1,0 +1,35 @@
+.Home{
+  margin-top: 10px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.Home-main {
+  width: 30%;
+  height: 100%;
+  margin: auto;
+}
+
+.Home-main .Home-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+}
+.Home-main .text{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.Home-main .NumBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.Home-main .NumBtn .Btn{
+  width: 30%;
+  height: 100%;
+  border: 1px solid orange;
+  text-align: center;
+  color: orange;
+}

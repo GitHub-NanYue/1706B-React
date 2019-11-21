@@ -1,0 +1,48 @@
+.Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-Top{
+    width: 100%;
+    height: 50px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.main-main{
+    flex: 1;
+    overflow: auto;
+}
+.main-buttom{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+a:focus {
+    background:#FF9;
+    color:#F00;
+}
+.Cart-Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Btns{
+    width: 20%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}

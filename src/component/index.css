@@ -1,0 +1,15 @@
+.main-buttom{
+    position: relative;
+}
+.num{
+    position: fixed;
+    bottom: 25px;
+    right: 80px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
